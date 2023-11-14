@@ -10,7 +10,11 @@ This was done on SQL server 2022 involving
 - Data cleaning and analysis
 
 ## Data Visualization:
-Power BI
+Power BI:
+
+![HR report_Page_1](https://github.com/kahethu/data/assets/27964625/89069bbe-eaf3-4f54-9140-d75683d175ce)
+
+![HR report_Page_2](https://github.com/kahethu/data/assets/27964625/b793c637-7020-4aa3-ab38-0f88dcc5037d)
 
 
 ## Exploratory Data Analysis
