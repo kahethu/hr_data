@@ -41,7 +41,24 @@ Power BI:
 8)	About 25% of employees work remotely.
 9)	Most employees are in Ohio (14,788) followed distantly by Pennsylvania (930) and Illinois (730), Indiana (572), Michigan (569), Kentucky (375) and Wisconsin (321).
 
-### Data Cleaning
+### 1) Create Database
+``` SQL
+CREATE DATABASE Human_Resources
+```
+### 2) Import Data to SQL Server
+- Right-click on Human_Resources > Tasks > Import Data
+- Use import wizard to import HR Data.csv to hr table
+- Verify that the import worked:
+
+``` SQL
+use Human_Resources
+```
+``` SQL
+SELECT *
+FROM hr_data;
+```
+
+### 3) Data Cleaning
 ####	Update date/time to date
 ![format-termdate-1](https://github.com/kahethu/data/assets/27964625/463e86e0-8b1a-47c8-943e-f125bad98706)
 
