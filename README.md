@@ -41,6 +41,7 @@ Power BI:
 8)	About 25% of employees work remotely.
 9)	Most employees are in Ohio (14,788) followed distantly by Pennsylvania (930) and Illinois (730), Indiana (572), Michigan (569), Kentucky (375) and Wisconsin (321).
 
+### Data Cleaning
 ####	Update date/time to date
 ![format-termdate-1](https://github.com/kahethu/data/assets/27964625/463e86e0-8b1a-47c8-943e-f125bad98706)
 
