@@ -59,6 +59,8 @@ FROM hr_data;
 ```
 
 ### 3) Data Cleaning
+The termdate was imported as nvarchar(50). This column contains termination dates, hence it needs to be converted to the date format.
+
 ####	Update date/time to date
 ![format-termdate-1](https://github.com/kahethu/data/assets/27964625/463e86e0-8b1a-47c8-943e-f125bad98706)
 
