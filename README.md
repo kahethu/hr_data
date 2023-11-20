@@ -270,3 +270,21 @@ GROUP BY jobtitle
 ORDER BY count DESC;
 ```
 
+#### 11) How have hire counts varied over time?
+``` SQL
+SELECT
+    hire_yr,
+    hires,
+    terminations,
+    hires - terminations AS net_change,
+    (round(CAST(hires - terminations AS FLOAT) / NULLIF(hires, 0), 2)) *100 AS percent_hire_change
+FROM  
+    (SELECT
+        YEAR(hire_date) AS hire_yr,
+        COUNT(*) AS hires,
+        SUM(CASE WHEN new_termdate IS NOT NULL AND new_termdate <= GETDATE() THEN 1 ELSE 0 END) terminations
+    FROM hr_data
+    GROUP BY YEAR(hire_date)
+    ) AS subquery
+ORDER BY hire_yr ASC;
+```
