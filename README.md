@@ -47,6 +47,7 @@ In a corporate setting, results can be shared online on www.powerbi.com
 8)	About 25% of employees work remotely.
 9)	Most employees are in Ohio (14,788) followed distantly by Pennsylvania (930) and Illinois (730), Indiana (572), Michigan (569), Kentucky (375) and Wisconsin (321).
 10)	There are 182 job titles in the company, with Research Assistant II taking most of the employees (634) and Assistant Professor, Marketing Manager, Office Assistant IV, Associate Professor and VP of Training and Development taking the just 1 employee each.
+11)	Employee hire counts have increased over the years
 
 
 ### 1) Create Database
